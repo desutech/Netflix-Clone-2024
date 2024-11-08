@@ -3,13 +3,14 @@
     max-width: 65%;
     margin: auto;
 }
-.footer-outer-container :hover{
-    cursor: pointer;
-}
 .content-box{
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
+}
+.content-box ul :hover{
+cursor: pointer;
+text-decoration: underline;
 }
 .content-box ul{
     list-style: none;
@@ -18,6 +19,9 @@
     flex-direction: column;
     gap: 2rem;
     color: #808080;
+}
+.footer-icons ul :hover{
+    cursor: pointer;
 }
 .footer-icons ul{
 display: flex;
