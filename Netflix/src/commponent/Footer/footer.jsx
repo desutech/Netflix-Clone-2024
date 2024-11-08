@@ -2,7 +2,7 @@ import React from 'react'
 import FacebookIcon from "@mui/icons-material/FacebookOutlined";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
-
+import './footer.css'
 const footer = () => {
   return (
     <div className="footer-outer-container">
@@ -21,13 +21,12 @@ const footer = () => {
             </li>
           </ul>
         </div>
-        <div >
+        <div className='content-box'>
           <div>
             <ul>
               <li>Audio Descriptions</li>
               <li>Investor Relations</li>
               <li>Legal Notices</li>
-              <li>Service Code</li>
             </ul>
           </div>
           <div>
@@ -53,8 +52,17 @@ const footer = () => {
               </li>
             </ul>
           </div>
-
         </div>
+      </div>
+      <div className='server-code'>
+        <ul>
+          <li>Service Code</li>
+        </ul>
+      </div>
+      <div className='copy-right'>
+        <ul>
+          <li> ©1997-2024 Netflix, Inc</li>
+        </ul>
       </div>
     </div>
   )
