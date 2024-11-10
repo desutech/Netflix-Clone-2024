@@ -1,13 +1,14 @@
 import React from 'react'
 import Header from '../../commponent/Header/header'
 import Footer from '../../commponent/Footer/footer'
-import Main from '../../commponent/Main/main'
+import Banner from '../../commponent/Banner/Banner'
+
 
 const home = () => {
   return (
     <>
       <Header />
-      <Main />
+      <Banner />
       <Footer />
 
     </>
