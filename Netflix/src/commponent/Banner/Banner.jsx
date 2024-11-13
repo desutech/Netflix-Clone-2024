@@ -5,23 +5,24 @@ import requests from '../utills/request';
 
 const Banner = () => {
   const [movie, setMovie] = useState({});
-
+  const token = import.meta.env.VITE_TOKEN;
   useEffect(() => {
     async function fetchUrl() {
       try {
-        const res = await axios.get(requests.fetchTrending)
+        const res = await axios.get(requests.fetchTrending
+
+        )
         const result = res.data.results;
         setMovie(result[Math.floor(Math.random() * result.length)])
       }
       catch (err) {
-        console.log(error)
+        console.log(err)
       }
     }
     fetchUrl();
   }, [])
 
-  console.log(movie)
-  console.log(movie.backdrop_path || movie.poster_path)
+
   return (
     <div style={{
       backgroundImage: `url(https://image.tmdb.org/t/p/original${movie?.backdrop_path || movie?.poster_path})`,

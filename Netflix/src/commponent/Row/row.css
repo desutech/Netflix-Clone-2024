@@ -1,0 +1,19 @@
+.row-outer-countainer{
+  max-width: 95%;
+ margin: auto;
+}
+.row-container{
+  display: flex;
+  gap: 2rem;
+ overflow-x: scroll;
+ 
+}
+.row-container::-webkit-scrollbar{
+  display: none;
+}
+.row-outer-countainer img{
+  max-width: 30.1rem;
+}
+h3{
+  color: #fff;
+}

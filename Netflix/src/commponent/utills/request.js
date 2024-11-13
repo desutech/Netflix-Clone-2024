@@ -1,4 +1,4 @@
-const API_KEY = '1c1384c9d3c5004c124bc0246a787aec';
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 
 
@@ -23,9 +23,12 @@ const requests = {
   fetchTvShows: `tv/popular?api_key=${API_KEY}&language=en_US&page=1`,
 
 };
-// const arrRequests = Object.keys(requests).map((key) => [key, requests[key]]);
+
+
+
+
+
 
 
 
 export default requests;
-// export { API_KEY, arrRequests };
