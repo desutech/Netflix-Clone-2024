@@ -2,6 +2,7 @@
     color: #fff;
     max-width: 65%;
     margin: auto;
+    margin-bottom: 3rem;
 }
 .content-box{
     display: flex;

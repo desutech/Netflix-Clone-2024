@@ -1,6 +1,7 @@
 .row-outer-countainer{
   max-width: 95%;
  margin: auto;
+ margin-bottom: 2rem;
 }
 .row-container{
   display: flex;
@@ -16,4 +17,7 @@
 }
 h3{
   color: #fff;
+   font-size: 2.5rem;
+   margin-bottom: 1rem;
+   
 }
