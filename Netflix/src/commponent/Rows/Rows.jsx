@@ -12,14 +12,14 @@ const Rows = () => {
   return (
     <div className='rows_container'>
 
-      <Row link={requests.fetchTopRatedMovies} title={'topRated'} />
-      <Row link={requests.fetchActionMovies} title={'Action'} />
-      <Row link={requests.fetchComedyMovies} title={'Action'} />
-      <Row link={requests.fetchDocumentaries} title={'Action'} />
-      <Row link={requests.fetchHorrorMovies} title={'Action'} />
-      <Row link={requests.fetchNetflixOrginals} title={'Action'} />
-      <Row link={requests.fetchRomanticMovies} title={'Action'} />
-      <Row link={requests.fetchTvShows} title={'Action'} />
+      <Row link={requests.fetchTopRatedMovies} title={'TopRatedMovies'} />
+      <Row link={requests.fetchActionMovies} title={'ActionMovies'} />
+      <Row link={requests.fetchComedyMovies} title={'ComedyMovies'} />
+      <Row link={requests.fetchDocumentaries} title={'Documentaries'} />
+      <Row link={requests.fetchHorrorMovies} title={'HorrorMovies'} />
+      <Row link={requests.fetchNetflixOrginals} title={'NetflixOrginals'} />
+      <Row link={requests.fetchRomanticMovies} title={'RomanticMovies'} />
+      <Row link={requests.fetchTvShows} title={'TvShows'} />
     </div>
 
 
